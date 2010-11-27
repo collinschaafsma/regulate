@@ -1,0 +1,1 @@
+# TODO: add a way to test generated files exist

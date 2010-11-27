@@ -1,3 +1,3 @@
+require 'regulate/engine'
 module Regulate
-  # Your code goes here...
 end
