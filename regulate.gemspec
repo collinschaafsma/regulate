@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   
   s.add_dependency "rails", "~> 3.0.0"
   s.add_dependency "sqlite3-ruby", "~> 1.3.2"
+  s.add_dependency "grit", "~> 2.3.0"
   s.add_development_dependency "bundler", "~> 1.0.0"
   s.add_development_dependency "capybara", "~> 0.4.0"
 
