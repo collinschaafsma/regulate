@@ -1,4 +1,4 @@
-class Regulate::PagesController < ApplicationController
+class PagesController < ApplicationController
   
   def index
     
@@ -13,6 +13,10 @@ class Regulate::PagesController < ApplicationController
   end
   
   def update
+    
+  end
+  
+  def new
     
   end
   
