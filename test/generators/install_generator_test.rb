@@ -1,4 +1,5 @@
-require File.join(File.dirname(__FILE__),"generators_helper.rb")
+require "rails/generators/test_case"
+require File.join(File.dirname(__FILE__), "../../../lib/generators/regulate/install_generator")
 
 class InstallGeneratorTest < Rails::Generators::TestCase
   tests Regulate::Generators::InstallGenerator

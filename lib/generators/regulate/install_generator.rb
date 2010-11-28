@@ -10,7 +10,7 @@ module Regulate
       end
 
       def copy_js
-        template "regulate.js", "public/stylesheets/regulate.js"
+        template "regulate.js", "public/javascripts/regulate.js"
       end
     end
   end
