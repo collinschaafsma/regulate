@@ -11,5 +11,8 @@ class InstallGeneratorTest < Rails::Generators::TestCase
     run_generator
     assert_file "app/views/pages/index.html.erb" 
     assert_file "app/views/pages/show.html.erb"
+    assert_file "app/views/pages/_form.html.erb"
+    assert_file "app/views/pages/edit.html.erb"
+    assert_file "app/views/pages/new.html.erb"
   end
 end
