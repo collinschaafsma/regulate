@@ -12,6 +12,14 @@ module Regulate
       def copy_js
         template "regulate.js", "public/javascripts/regulate.js"
       end
+      
+      def copy_yml
+        template "regulate.yml", "config/regulate.yml"
+      end
+      
+      def copy_initializer
+        template "regulate.rb", "config/initializers/regulate.rb"
+      end
     end
   end
 end
