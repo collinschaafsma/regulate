@@ -24,19 +24,20 @@ module Regulate
     end
   
     def save
-
+      Regulate::Git.create_page()
     end
   
     def update_attributes(attributes = {})
       assign_attributes(attributes)
+      Regulate::Git.update_page()
     end
   
     def destroy
-
+      Regulate::Git.delete_page(name)
     end
 
     def self.find(name)
-
+      Regulate::Git.find_page(name)
     end
   
     def self.find_by_version_id(name, version_id)

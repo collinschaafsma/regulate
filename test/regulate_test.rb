@@ -34,6 +34,6 @@ class RegulateTest < ActiveSupport::TestCase
   end
   
   test 'repo set from yaml file' do
-    assert_equal "db/repos/test.git", Regulate::Configuration.instance.repo
+    assert_equal File.join(Rails.root, "db/repos/test.git"), Regulate::Configuration.instance.repo
   end
 end

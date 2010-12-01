@@ -5,3 +5,4 @@ pkg/*
 .rvmrc
 test/tmp/**/*
 test/dummy/log/*
+test/dummy/db/repos/*

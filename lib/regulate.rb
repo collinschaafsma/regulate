@@ -1,4 +1,5 @@
 require 'regulate/configuration'
+require 'regulate/git'
 require 'regulate/railtie' if defined?(Rails)
 require 'regulate/engine' if defined?(Rails)
 

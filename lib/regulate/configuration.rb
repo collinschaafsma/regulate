@@ -21,7 +21,7 @@ module Regulate
   private
     def parse_config
       @config ||= YAML.load_file(File.join(self.app_root, "config", "regulate.yml"))[Rails.env]
-      @repo   ||= @config['repo']
+      @repo   ||= File.join(self.app_root, @config['repo'])
     end
   end
 end

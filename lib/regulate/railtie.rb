@@ -1,5 +1,3 @@
-require 'rails'
-
 module Regulate
   class Railtie < Rails::Railtie
     initializer "regulate.set_up_configurations" do |app|
